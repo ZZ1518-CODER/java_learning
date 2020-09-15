@@ -88,4 +88,17 @@
 				String all = String.join("#","1", "2", "3"); // all = "1#2#"
 			还有如果想要重复一个字符串可以使用repeat方法，
 				String repeated = "Java".repeat(3) // repeated = "JavaJavaJava"
-		
+	1.2、StringBuffer类和StringBuilder类
+		StringBuffer和StringBuilder是一种可以实现字符串内容更改的，如果说java中的String类是C++中的字符串，那么StringBuffer和StringBuilder就是C++中的String类，可以实现字符串的修改、增加长度等等。
+		但是StringBuffer不同于StringBuilder的是，StringBuffer是线程安全的，类内实现了加了锁，而StringBuilder是非线程安全的，但是效率相对来说比较高，所以在单线程的场景一般使用StringBuffer。
+
+五、类和对象
+	类和对象属于已经比较了解的范畴，也有很多资料，所以这里不再进行总结。
+	但是需要补充一些，加深理解；
+	JAR文件：当需要将应用程序打包时，我们通常希望获得一个单独的文件，而不是一个包含大量文件的目录结构，JAR就是基于此目的设计的。jar是一种压缩包，类似于zip或者tar包的格式，命令也和tar压缩包的生成方式类似，
+		jar cvf javFileName file1 file2...（注意这里不带“-”）；
+六、异常
+	    在java中，所有异常都是派生于Throwable类，在下一层，主要分解为两个类，一个是Eror，一个是Exception。其中Error类描述了java类运行是系统内部的错误或者资源耗尽，你的系统不会抛出此类型的对象，如果出现了这种
+	内部错误，除了通知用户并终止程序之外，你基本上无法避免这种错误。
+		我们需要重点关注的是Exception这个结构，这个结构也会派生出来两个分之，一个是IOException，另一个是RuntimeException（由编程导致的异常，例如数组越界、反问null指针、错误的强制类型转换等，相当于C++中的
+	logic_errror）；java将派生于Error类和RuntimeException类的异常称为非检查型异常，其他异常称为检查型异常.
