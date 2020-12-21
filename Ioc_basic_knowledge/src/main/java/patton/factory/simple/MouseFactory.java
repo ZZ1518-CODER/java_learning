@@ -16,10 +16,4 @@ public class MouseFactory {
         }
     }
 
-    public static void main(String[] args) {
-        Mouse mouse = MouseFactory.createMouse(EnterpriseEnum.getByCode("dell"));
-        Mouse mouse1 = MouseFactory.createMouse(EnterpriseEnum.getByCode("hp"));
-        mouse.click();
-        mouse1.click();
-    }
 }

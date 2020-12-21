@@ -23,10 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48421ba-9b7e-461b-827a-20c843a71828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patton/factory/simple/MouseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patton/factory/simple/MouseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/patton/factory/simple/MouseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/patton/factory/simple/MouseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/patton/factory/util/EnterpriseEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/patton/factory/util/EnterpriseEnum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -73,7 +74,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patton.factory.Main" />
+      <module name="Ioc_basic_knowledge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patton.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MouseFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patton.factory.simple.MouseFactory" />
       <module name="Ioc_basic_knowledge" />
@@ -89,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MouseFactory" />
       </list>
     </recent_temporary>
@@ -124,26 +139,26 @@
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state x="413" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1608383477897" />
-    <state x="762" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1608381223842">
+    <state x="762" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1608567951028">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state x="762" y="279" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1033@0.23.1792.1033" timestamp="1608381223842" />
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1608386188098">
+    <state x="762" y="279" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1033@0.23.1792.1033" timestamp="1608567951028" />
+    <state width="1358" height="190" key="GridCell.Tab.0.bottom" timestamp="1608568125217">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1608386188098" />
-    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1608386188097">
+    <state width="1358" height="190" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1608568125217" />
+    <state width="1358" height="190" key="GridCell.Tab.0.center" timestamp="1608568125216">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1608386188097" />
-    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1608386188096">
+    <state width="1358" height="190" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1608568125216" />
+    <state width="1358" height="190" key="GridCell.Tab.0.left" timestamp="1608568125216">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1608386188096" />
-    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1608386188097">
+    <state width="1358" height="190" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1608568125216" />
+    <state width="1358" height="190" key="GridCell.Tab.0.right" timestamp="1608568125217">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1608386188097" />
+    <state width="1358" height="190" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1608568125217" />
     <state x="487" y="218" key="Maven.ArtifactSearchDialog" timestamp="1608382922548">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
